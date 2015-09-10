@@ -33,7 +33,8 @@
     $(".circle").addClass("circle-green")
     $(".m-content").show();
     $(".close-button").click(function(){
-      location.reload()
+      $(".m-content").hide();
+      $("body").removeClass("m-background");
     });
   }
 
@@ -46,7 +47,8 @@
     $(".circle").addClass("circle-green")
     $(".m-content").show();
     $(".close-button").click(function(){
-      location.reload()
+      $(".m-content").hide();
+      $("body").removeClass("m-background");
     });
   }
 
@@ -59,7 +61,8 @@
     $(".circle").addClass("circle-red")
     $(".m-content").show();
     $(".close-button").click(function(){
-      location.reload()
+      $(".m-content").hide();
+      $("body").removeClass("m-background");
     });
   }
 
