@@ -160,11 +160,65 @@ body {
 
 .m-content  {
   z-index: 2;
+  height: 390px;
   position: absolute;
-  top: 23%;
+  top: 18%;
   left: 37.5%;
   background-color: white;
   padding: 1pc;
-  border: 1px solid;
+  border: 4px solid;
   border-radius: 5px;
+  font: 50px "Helvetica Neue", Helvatica, Arial, san-serif;
+}
+
+.circle-green {
+  display: inline-block;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+  background-color: green;
+  margin-left: 10px;
+}
+
+.circle-red {
+  display: inline-block;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+  background-color: red;
+  margin-left: 10px;
+}
+
+.date{
+  margin-top: -4px;
+  font-size: 40px;
+  border-bottom: 3px solid grey;
+}
+
+.m-content h3{
+  font-size: 25px;
+  /*padding-bottom: 5px*/
+
+}
+
+.event{
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.status{
+  padding-bottom: 16%;
+}
+
+.close-button{
+  color: white;
+  font-size: 21px;
+  width: 100%;
+  height: 10%;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.busy-day{
+  background-color: red;
 }
