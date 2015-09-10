@@ -10,10 +10,16 @@
   }
 
   CalendarView.prototype.openModal = function (){
+    days = [1,7,14,24]
     $(".indv-days td").click(function(event){
-      $day = $(event.currentTarget)
-      console.log($day.attr("data-info"))
-      // console.log("hello world")
+      $day = $(event.currentTarget);
+      dayInfo = $day.attr("data-info");
+      console.log(dayInfo === "1");
+      if (dayInfo === "1"){
+        console.log("hello")
+        $('body').append("<div>").addClass('m-background')
+        $(".m-content").show();
+      }
     })
   }
 
